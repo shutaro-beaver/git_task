@@ -3,15 +3,15 @@
 
 int main()
 {
-    int a ;
-    scanf("%d", &a);
-    printf("value1:%d\n",a);
+    char str1[10] ;
+    scanf("%s", &str1);
+    printf("word1:%s\n",str1);
 
-    int b ;
-    scanf("%d", &b);
-    printf("value2:%d\n",b);
+    char str2[10] ;
+    scanf("%s", &str2);
+    printf("word2:%s\n",str2);
 
-    printf("sum:%d\n", a+b);
+    printf("sentence:%s %s\n", str1, str2);
 
     return 0;
 }
