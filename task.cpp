@@ -3,13 +3,15 @@
 
 int main()
 {
-    int a = 3;
-    int b = 5;
+    int a ;
+    scanf("%d", &a);
+    printf("value1:%d\n",a);
 
-    printf("%d\n",a);
-    printf("%d\n",b);
+    int b ;
+    scanf("%d", &b);
+    printf("value2:%d\n",b);
 
-    printf("%d\n",a+b);
+    printf("sum:%d\n", a+b);
 
     return 0;
 }
